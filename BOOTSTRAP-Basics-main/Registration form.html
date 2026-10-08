@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <form class="needs-validation" novalidate>
+        <div class="container text-secondary">
+            <h1 class="text-black mb-3">Registration Form</h1>
+            <div class="row mb-2">
+                <div class="col">
+                    <h5>First Name</h5>
+                    <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="col">
+                    <h5>Last Name </h5>
+                    <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="col mb-2">
+                <h5>Email</h5>
+                <input type="email" class="form-control" placeholder="Enter the email">
+            </div>
+            <div class="col mb-2">
+                <h5>Password</h5>
+                <input type="password" class="form-control" placeholder="Enter the password">
+                <p>Must be 8+ Characters long</p>
+            </div>
+            <div class="col mb-2">
+                <h5>Country</h5>
+                <select class="form-select text-secondary">
+                    <option value="" disabled selected>Choose...</option>
+                    <option value="India">India</option>
+                    <option value="United States">United States</option>
+                </select>
+            </div>
+            <div class="col mb-2">
+                <input type="checkbox"> <label for="">Subscription Payment Status</label>
+            </div>
+            <div class="col mb-2">
+                <h5>Prefered Contact : </h5>
+                <input type="radio"> <label for="">Email</label> <br>
+                <input type="radio"> <label for="">Phone</label>
+            </div>
+            <div class="col mb-2">
+                <h5>Bio</h5>
+                <textarea name=""  class="form-control"></textarea>
+            </div>
+            <button class="btn btn-primary">Register</button>
+        </div>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
